@@ -1,17 +1,17 @@
-# md-toc
+# mdtocify
 
 It generates a markdown TOC (table of contents) based on the headings of the given markdown content. It is simple and useful for generating a custom TOC. It is fully written in Typescript.
 
 ## Install
 
 ```sh
-npm install md-toc
+npm install mdtocify
 ```
 
 ## Usage
 
 ```js
-var toc = require('md-toc');
+var toc = require('mdtocify');
 
 toc('# One\n\n# Two')
 // Results in:

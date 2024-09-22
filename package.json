@@ -1,5 +1,5 @@
 {
-  "name": "md-toc",
+  "name": "mdtocify",
   "version": "0.1.0",
   "description": "A simple and efficient npm library, fully written in TypeScript, that parses a Markdown string and generates a table of contents (TOC) based on the headings.",
   "type": "module",
@@ -29,7 +29,7 @@
     "md-toc",
     "react"
   ],
-  "author": "Kyungho Byoun",
+  "author": "Kyungho Byoun (https://github.com/byunk)",
   "license": "MIT",
   "dependencies": {
     "github-slugger": "^2.0.0",
