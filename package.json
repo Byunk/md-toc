@@ -1,0 +1,51 @@
+{
+  "name": "md-toc",
+  "version": "0.1.0",
+  "description": "A simple and efficient npm library, fully written in TypeScript, that parses a Markdown string and generates a table of contents (TOC) based on the headings.",
+  "type": "module",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "engines": {
+    "node": ">=18"
+  },
+  "files": [
+    "dist"
+  ],
+  "scripts": {
+    "build": "tsc",
+    "test": "jest -c jest.config.js"
+  },
+  "exports": {
+    ".": {
+      "import": "./dist/index.js",
+      "types": "./dist/index.d.ts"
+    }
+  },
+  "keywords": [
+    "markdown",
+    "table of contents",
+    "toc",
+    "md",
+    "md-toc",
+    "react"
+  ],
+  "author": "Kyungho Byoun",
+  "license": "MIT",
+  "dependencies": {
+    "github-slugger": "^2.0.0",
+    "remark-parse": "^11.0.0",
+    "unified": "^11.0.5",
+    "unist-util-visit": "^5.0.0"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.25.2",
+    "@babel/preset-env": "^7.25.4",
+    "@types/jest": "^29.5.13",
+    "@types/node": "^22.5.5",
+    "babel-jest": "^29.7.0",
+    "jest": "^29.7.0",
+    "ts-jest": "^29.2.5",
+    "tsc": "^2.0.4",
+    "typescript": "^5.6.2"
+  }
+}
