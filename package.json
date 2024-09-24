@@ -26,10 +26,15 @@
     "table of contents",
     "toc",
     "md",
-    "md-toc",
+    "mdtocify",
     "react"
   ],
-  "author": "Kyungho Byoun (https://github.com/byunk)",
+  "homepage": "https://github.com/Byunk/mdtocify",
+  "bugs": {
+    "url": "https://github.com/Byunk/mdtocify/issues",
+    "email": "kyungho.byoun@gmail.com"
+  },
+  "author": "Kyungho Byoun <kyungho.byoun@gmail.com> (https://github.com/Byunk)",
   "license": "MIT",
   "dependencies": {
     "github-slugger": "^2.0.0",
