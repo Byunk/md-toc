@@ -1,5 +1,5 @@
 import { toc } from "../src/toc";
-import loremIpsum from "./fixture/lorem-ipsum";
+import loremIpsum from "./fixture/lorem-ipsum.js";
 
 describe("toc", () => {
   it("should return an array of TOC items", () => {

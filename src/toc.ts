@@ -3,8 +3,8 @@ import { toString } from "mdast-util-to-string";
 import remarkParse from "remark-parse";
 import { unified } from "unified";
 import { visit } from "unist-util-visit";
-import { Options, defaultOptions } from "./options";
-import { toExpression } from "./to-expression";
+import { Options, defaultOptions } from "./options.js";
+import { toExpression } from "./to-expression.js";
 
 interface TocItem {
   content: string;

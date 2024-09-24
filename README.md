@@ -10,6 +10,8 @@ npm install mdtocify
 
 ## Usage
 
+> It only supports ES module import.
+
 ```js
 import { toc } from 'mdtocify';
 
