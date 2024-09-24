@@ -1,6 +1,6 @@
 {
   "name": "mdtocify",
-  "version": "0.1.2",
+  "version": "0.1.3",
   "description": "A simple and efficient npm library, fully written in TypeScript, that parses a Markdown string and generates a table of contents (TOC) based on the headings.",
   "type": "module",
   "main": "dist/index.js",
