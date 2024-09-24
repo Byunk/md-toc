@@ -11,7 +11,7 @@ npm install mdtocify
 ## Usage
 
 ```js
-var toc = require('mdtocify');
+import { toc } from 'mdtocify';
 
 toc('# One\n\n# Two')
 // Results in:
